@@ -63,8 +63,8 @@ main(int argc, const char *argv[]) {
 		perror("fopen");
 		exit(1);
 	}
-//	for (u_int R4 = (1 << 10); R4 < 0x20000; R4++) {
-	for (u_int R4 = (1 << 10); R4 < 0x1000; R4++) {
+	for (u_int R4 = (1 << 10); R4 < 0x20000; R4++) {
+//	for (u_int R4 = (1 << 10); R4 < 0x1000; R4++) {
 		if ((R4 & (1 << 10)) == 0) {
 			continue;
 		}
